@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Associados</title>
+</head>
+<body>
+    <h1>Cadastro de Associados</h1>
+    <form method="post" action="">
+        <table>
+            <tr>
+                <td><strong>Nome:</strong></td>
+                <td><input type="text" name="nome" size="30"></td>
+                <td>
+                    <strong>Sexo:</strong>
+                    <input type="radio" name="sexo" value="F"/>Feminino 
+                    <input type="radio" name="sexo" value="M"/>Masculino
+                </td>
+            </tr>
+
+            <tr>
+                <td><strong>E-mail:</strong></td>
+                <td><input type="text" name="nome" size="30"></td>
+            </tr>
+
+            <tr>
+                <td>Esportes que aprecia:</td>
+                <td>
+                    <input type="checkbox" name="esportes" value="Fut"/>Futebol
+                    <input type="checkbox" name="esportes" value="Vol"/>Vôlei
+                    <input type="checkbox" name="esportes" value="Basq"/>Basquete
+                    <input type="checkbox" name="esportes" value="Ten"/>Tênis |
+                </td>
+                <td>
+                    Outro:
+                    <input type="text" name="outro" size="30">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Comentário sobre o esporte preferido</td>
+            </tr>
+            <tr>
+                <td>
+                    <textarea name="comentario" cols="20" rows="6"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td><input type="submit" value="Enviar">
+                    <input type="submit" value="Limpar">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
